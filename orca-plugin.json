@@ -1,0 +1,84 @@
+{
+  "manifestVersion": 2,
+  "id": "everforest-theme",
+  "name": "Everforest for Orca",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "Comfortable green-based dark and light application themes in hard, medium and soft contrast, with matching Everforest terminal colors.",
+  "license": "MIT",
+  "repository": "https://github.com/ivo922/everforest-theme",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "everforest-dark-hard",
+        "title": "Everforest Dark Hard",
+        "path": "themes/everforest-dark-hard.json"
+      },
+      {
+        "id": "everforest-dark-medium",
+        "title": "Everforest Dark Medium",
+        "path": "themes/everforest-dark-medium.json"
+      },
+      {
+        "id": "everforest-dark-soft",
+        "title": "Everforest Dark Soft",
+        "path": "themes/everforest-dark-soft.json"
+      },
+      {
+        "id": "everforest-light-hard",
+        "title": "Everforest Light Hard",
+        "path": "themes/everforest-light-hard.json"
+      },
+      {
+        "id": "everforest-light-medium",
+        "title": "Everforest Light Medium",
+        "path": "themes/everforest-light-medium.json"
+      },
+      {
+        "id": "everforest-light-soft",
+        "title": "Everforest Light Soft",
+        "path": "themes/everforest-light-soft.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "everforest-dark-hard",
+        "title": "Everforest Dark Hard",
+        "path": "terminal/everforest-dark-hard.json"
+      },
+      {
+        "id": "everforest-dark-medium",
+        "title": "Everforest Dark Medium",
+        "path": "terminal/everforest-dark-medium.json"
+      },
+      {
+        "id": "everforest-dark-soft",
+        "title": "Everforest Dark Soft",
+        "path": "terminal/everforest-dark-soft.json"
+      },
+      {
+        "id": "everforest-light-hard",
+        "title": "Everforest Light Hard",
+        "path": "terminal/everforest-light-hard.json"
+      },
+      {
+        "id": "everforest-light-medium",
+        "title": "Everforest Light Medium",
+        "path": "terminal/everforest-light-medium.json"
+      },
+      {
+        "id": "everforest-light-soft",
+        "title": "Everforest Light Soft",
+        "path": "terminal/everforest-light-soft.json"
+      }
+    ]
+  },
+  "capabilities": [],
+  "cover": {
+    "path": "images/cover.png",
+    "alt": "Everforest Dark Medium and Light Medium preview with a file tree, syntax-highlighted TypeScript, terminal output, and palette swatches"
+  }
+}
